@@ -24,3 +24,5 @@ setTimeout(() => {
   // Need to escape the backslash since it's a special character.
   process.stdout.write('\r\\   '); 
 }, 1100);
+
+process.stdout.write('\x07');
